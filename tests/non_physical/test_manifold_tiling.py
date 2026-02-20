@@ -44,4 +44,3 @@ def run_tiling_proof():
 
 if __name__ == "__main__":
     run_tiling_proof()
- village
