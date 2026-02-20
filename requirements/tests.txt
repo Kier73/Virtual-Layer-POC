@@ -1,0 +1,10 @@
+# VLD Enhancement Test Dependencies
+# Note: The core vld_sdk remains 100% dependency-free (Standard library only).
+# These are only required for the 'tests/enhancements/' and 'benchmarks/' suites.
+
+numpy>=1.24.0
+torch>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+psutil>=5.8.0

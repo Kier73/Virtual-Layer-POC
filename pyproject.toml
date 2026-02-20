@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vld-sdk"
+version = "0.1.0"
+authors = [
+  { name="Kieran Vanderburgh", email="kier73research@gmail.com" },
+]
+description = "Virtual Layer Dynamics (VLD): Python PoC SDK for Scale-Invariant Generative Logic"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "numpy",
+    "torch",
+    "psutil",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Kier73/Virtual-Layer-POC"
+"Bug Tracker" = "https://github.com/Kier73/Virtual-Layer-POC/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vld_sdk*"]
