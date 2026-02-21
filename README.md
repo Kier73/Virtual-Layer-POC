@@ -8,32 +8,7 @@ In brief, the logic for low cost and generative processing emerges from a custom
 
 ---
 
-## 1. Terminology Bridge
-
-A reference for understanding the internal **vMath** dialect used in the Virtual Layer codebase and standard terms used in **Computer Science, Linear Algebra, and Machine Learning**.
-
-| vMath (Internal) | Academic / Industry Term | Mathematical Definition / Context |
-| :--- | :--- | :--- |
-| **Variety** | **Deterministic Pseudorandom Field (DPF)** | $f: \Sigma \times \mathbb{Z}^n \to \mathbb{R}$. Procedural generation. |
-| **Shunting** | **Algorithmic Memoization** | $O(N) \to O(1)$. Bypassing execution via cached results. |
-| **Induction** | **Signature-Based Inference** | Pattern matching fingerprints against a result store. |
-| **Manifold** | **Computational Latent Space** | High-dimensional mapping of valid operations. |
-| **Signature** | **Feature Fingerprint** | Collision-resistant hash of a kernel or data block. |
-| **Holographic** | **Semantic Isomorphism** | Recognizing similarity in underlying structure (HDC). |
-| **Crystallization** | **Static Convergence** | State where computation is fully shunted/cached. |
-| **Resonance** | **Coherence / Zero-Error** | Matching between predicted variety and actual data. |
-| **Dissonance** | **Residual Error / Surprise** | $\|\text{Predicted} - \text{Actual}\|$. Used in Active Inference. |
-| **Generative Memory** | **Procedural Synthesis** | Replacing storage buffers with $O(1)$ ALU functions. |
-
-## 2.  What the Virtual Layer Does
-replaces traditional "Physical Allocation" with "Procedural Generation." 
-
-- **V-Series (Spectral Projection)**: Projects high-dimensional signals into variety-rich coordinates.
-- **G-Series (Geometric Realization)**: Realizes matrix elements and data assets JIT (Just-In-Time) based on a 128-bit descriptor.
-- **X-Series (Isomorphic Manifolds)**: Detects structural identity across different systems using Holographic Data Coordination (HDC).
-- **Induction (Grounding)**: Memoizes expensive iterative functions into $O(1)$ memory recalls by observing their structure 
-
-## 3. Industry Assistance (Framework Augmentation)
+## 1. Industry Assistance (Framework Augmentation)
 VLD is designed to assist and accelerate established industry standards:
 
 | Framework | VLD Enhancement | Practical Impact |
@@ -47,7 +22,7 @@ VLD is designed to assist and accelerate established industry standards:
 
 ---
 
-## 4. Empirical Results
+## 2. Empirical Results
 The following table summarizes the verified performance and stability of the VLD dynamics across the comprehensive test suite inside this repository.
 
 | Test Category | Key Dynamic | Scale / Complexity | Result / Metric | Status |
@@ -62,7 +37,7 @@ The following table summarizes the verified performance and stability of the VLD
 
 ---
 
-## 5. Getting Started (Using the SDK)
+## 3. Getting Started (Using the SDK)
 
 ### Installation
 The core SDK is **dependency-free** and requires only a standard Python 3.10+ environment.
@@ -104,7 +79,7 @@ val = matrix.resolve(525600, 123456)
 
 ---
 
-## 6. Levels of Abstraction explored by the Virtual Layer
+## 4. Levels of Abstraction explored by the Virtual Layer
 
 **level 1**: The Virtual Layer is the memoization and prediction of input and output for structured algorithms. Made possible by deterministic hashing, geometric framing and procedural generation. Navigation to seeded hash based coordinates inside vast virtual spaces is undertaken by number theoretic transforms, residue number systems and timestamps. Enabling bit-exact, reproducible and guided execution of structured processes with low memory overhead over consistent time. 
 
@@ -115,13 +90,13 @@ val = matrix.resolve(525600, 123456)
 
 ---
 
-## 7. Contact 
+## 5. Contact 
 - **Owner**: Kieran Vanderburgh
 - **Email**: [kier73research@gmail.com](mailto:kier73research@gmail.com)
 - **GitHub**: [Kier73](https://github.com/Kier73)
 
 ---
-## 8. Related Repositories
+## 6. Related Repos
 
 https://github.com/Kier73/Generative-Linear-Algebra
 https://github.com/Kier73/Generative-Processing-In-Rust
@@ -129,5 +104,5 @@ https://github.com/Kier73/Generative-Memory
 
 ---
 
-## 9. License
+## 7. License
 This project is dual-licensed under the **MIT License** and the **Apache License, Version 2.0**. See the [LICENSE](LICENSE) file for details.
